@@ -1,0 +1,3 @@
+lyra2re2_hash
+lyra2re3_hash
+lyra2re_hash

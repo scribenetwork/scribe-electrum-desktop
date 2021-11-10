@@ -1,0 +1,13 @@
+#!/bin/bash
+
+CONTRIB="$(dirname "$0")"
+test -n "$CONTRIB" -a -d "$CONTRIB" || exit
+
+rm "$CONTRIB"/../packages/ -r
+
+#Install pure python modules in electrum directory
+LYRA2RE_HASH_PYTHON_URL=git+https://github.com/wakiyamap/lyra2re-hash-python.git
+python3 -m pip install $LYRA2RE_HASH_PYTHON_URL -t "$CONTRIB"/../packages
+
+python3 -m pip install -r "$CONTRIB"/deterministic-build/requirements.txt -t "$CONTRIB"/../packages
+

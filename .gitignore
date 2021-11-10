@@ -1,0 +1,38 @@
+####-*.patch
+*.pyc
+*.swp
+build/
+dist/
+tmp/
+*.egg/
+Electrum_MONA.egg-info/
+electrum_scribe/locale/
+.devlocaltmp/
+*_trial_temp
+packages
+env/
+.buildozer/
+bin/
+/app.fil
+.idea
+.mypy_cache
+.vscode
+
+# icons
+electrum_scribe/gui/kivy/theming/light-0.png
+electrum_scribe/gui/kivy/theming/light-1.png
+electrum_scribe/gui/kivy/theming/light.atlas
+
+# tests/tox
+.tox/
+.cache/
+.coverage
+.pytest_cache
+
+# build workspaces
+contrib/build-wine/tmp/
+contrib/build-wine/fresh_clone/
+contrib/build-linux/appimage/build/
+contrib/build-linux/appimage/.cache/
+contrib/android_debug.keystore
+.DS_Store
