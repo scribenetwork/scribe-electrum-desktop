@@ -35,7 +35,7 @@ folder.
         sudo rm -rf $FRESH_CLONE && \
         mkdir -p $FRESH_CLONE && \
         cd $FRESH_CLONE  && \
-        git clone https://github.com/wakiyamap/electrum-scribe.git && \
+        git clone https://github.com/scribenetwork/scribe-electrum-desktop.git && \
         cd electrum-scribe
     ```
 
